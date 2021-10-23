@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* body{
+  height: 70px;
+  content: "";
+} */
+
+                                                   /* Home */
+.slider .homeimg{
+  position: relative;
+  height: 100vh;
+  /* top: -100px; */
+  width: 100%;
+  z-index: -1;
+}
+
+.slider .aboutusimg{
+  height: 500px;
+  width:100%;
+  position: relative;
+}
+.aboutus  {
+  font-weight:400;
+  letter-spacing: 0.08em;
+  position: absolute;
+  text-align: start;
+  margin-left: 7rem;
+  top: 50rem;
+}
+.aboutus p {
+  line-height: 1.7;
+  color: white;
+}
+.aboutus button {
+  font-size:17px;
+  font-weight: 700;
+  text-align: center;
+  margin-right: 7rem;
+  outline:none;
+  border-radius: 30px;
+  background-color:white;
+  height:49px;
+  width:150px;
+  border-width: 20px;
+  border-style: none;
+  color:black;
+  
+}
+.hcard{
+  background-color:rgba(240, 233, 233, 0.589);
+  height: auto;
+  width:100%;
+}
+.hcard .hcard1{
+  margin: 0px 10px 0px 20px;
+}
+.hcard .hcol .card{
+  align-items: center;
+  background: transparent;
+  border-style: none;
+  background-color: none;
+  border: none;
+  text-decoration: none;
+  outline: none;
+}
+
+.hcard .card img{
+  height: 320px;
+  width: 300px;
+  text-decoration: none;
+  border-style: none;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+}
+.hcard .card span{
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  width: 300px;
+  padding-top: 7px;
+}
+.pack .pack1 .pack2 .card{
+  align-items: center;
+  background: transparent;
+  background-color: none;
+  border: none;
+  margin-bottom: 30px;
+}
+.pack .pack1 .pack2 .card img{
+  width : 400px;
+  height: 500px;
+  
+}
+.msg{
+  height: 120px;
+}
+/* 
+.navbarcontainer{
+  margin: 0px 14rem;
+}
+.navbarcontainer .navbar {
+  box-sizing: border-box;
+  position: absolute;
+  position: fixed;
+  z-index: 1;
+  width:70%;
+  top: 40px;
+  padding: 20px 0px;
+  letter-spacing: 0.09em;
+  right: 15%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color:white;
+  border-radius: 30px;
+}
+@media (max-width: 800px) {
+  .navbar{
+    margin: 0px;
+    right: 8%;
+    padding: 10px 0px;
+    width:100%;
+  }
+  
+} */
+/* .navbar :hover{
+  cursor:move;
+  background-color: wheat;
+  border-radius: 20px;
+} */
+
+/* @media (max-width: 450px) {
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.navbar .logo {
+  width: 150px;
+  height: auto;
+}
+
+.navbar .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar .rightside {
+  display: flex;
+  font-weight:500;
+  font-size: 18px;
+  margin-right: 4px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 450px) {
+  .navbar .rightside {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 0px;
+  }
+}
+
+.navbar .rightside div {
+  margin: 0px 24px;
+}
+
+@media (max-width: 450px) {
+  .navbar .rightside div {
+    margin: 10px 0px;
+  }
+}
+
+.navbar .rightside div .navlink {
+  text-decoration: none;
+  color: #000;
+} */
+.App {
+  margin: 0px;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

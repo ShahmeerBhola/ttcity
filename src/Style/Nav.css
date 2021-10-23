@@ -1,0 +1,15 @@
+.nav1 {
+    position: absolute;
+
+    margin-left: 14%;
+    width: 80%;
+}
+.nav1 .nav2{
+    z-index: 999;
+    position: fixed;
+    border-radius: 50px;
+    margin-top: 12px;
+    height: 80px;
+    background-color:white;
+    
+}
